@@ -9,7 +9,8 @@
 Este proyecto implementa un **visor de imágenes interactivo** en Python usando Tkinter, PIL, Numpy y Matplotlib, que permite:
 -  Cargar imágenes desde el sistema de archivos.  
 -  Aplicar filtros de color y transformaciones (brillo, contraste, rotación, negativo, binarización, zonas claras, zonas oscuras y fusion de dos imagenes.).  
--  Hacer **zoom dinámico** en cualquier punto de la imagen con una seleccion del ratón.  
+-  Hacer **zoom dinámico** en cualquier punto de la imagen con una seleccion del ratón.
+-  Hacer zoom ingresando coordenadas.
 -  Activar y desactivar canales RGB o CMY.  
 -  Mostrar el histograma de la imagen con la distribución de cada canal RGB.
 -  Deshacer cambios y guardar imagen.
@@ -29,5 +30,6 @@ La aplicación está compuesta por módulos que separan la lógica, la interfaz 
 Instálalas con:
 ```bash
 pip install pillow numpy matplotlib
+
 
 
